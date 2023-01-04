@@ -1,0 +1,229 @@
+/* Edit background-color of the page */
+
+body{
+    background-color: #191716;
+    margin: 0;
+}
+
+/* Edit smooth animation when scrolling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Edit navbar and its elements */
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #191716;
+    position: sticky;
+    top: 0;
+}
+
+.home{
+    width: 65%;
+    margin-left: 120px;
+}
+
+.anav {
+    padding: 10px;
+    font-family: Jost;
+    color: #D87F2E;
+    text-decoration: none!important;
+}
+
+.anav:hover {
+    text-decoration: none!important;
+    background-color: #8C1827;
+    color: #F6E27F;
+    padding: 10px;
+    height: 100%;
+    font-family: Jost;
+    cursor: pointer;
+}
+
+/* Edit home card */
+
+.homecard{
+    background-color: rgba(217,217,217,.33);
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hello{
+    display: flex;
+    align-items: center;
+    font-size: 76px;
+    font-family: Rockwell;
+    color: #fff;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    font-size: 76px;
+    font-family: Rockwell;
+    font-weight: bold;
+    color: #D87F2E;
+}
+
+/* Edit who am i card */
+
+.wai{
+    text-align: center;
+}
+
+h1{
+    font-size: 100px;
+    color: #F6E27F;
+    font-family: Rockwell;
+    font-weight: 200;
+}
+
+.text{
+    width: 50%;
+    margin-left: 60px;
+    margin-top: 45px;
+}
+
+.text p{
+    color: #fff;
+    font-family: Jost;
+    text-align: justify;
+    width: 80%;
+}
+
+.split {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h3{
+    color: #D87F2E;
+    font-family: Jost;
+}
+
+.skills{
+    width: 50%;
+    font-family: Jost;
+}
+
+.col1{
+    width: 50%;
+}
+
+.col2{
+    width:50%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row p{
+    color: #fff;
+}
+
+/* Edit projects card */
+
+.prjtext{
+    display: flex;
+    justify-content: center;
+}
+
+.prjtext p{
+    color: #fff;
+    font-family: Jost;
+    text-align: justify;
+    width: 50%;
+}
+
+.col3{
+    width: 50%;
+}
+
+.gitlink{
+    display: flex;
+    justify-content: center;
+    width: 53%;
+}
+
+.git img{
+    width: 40px;
+}
+
+.split2{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Edit contact card */
+
+.ctc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iptxt{
+    width: 400px;
+    padding: 10px;
+    font-family:Jost;
+    border-radius: 6px;
+}
+
+.btnsub{
+    padding: 8px 12px 8px 12px;
+    font-family: Jost;
+    background-color: #D87F2E;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.btnsub:hover{
+    padding: 8px 12px 8px 12px;
+    font-family: Jost;
+    background-color: #fff;
+    color: #8C1827;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+i{
+    color: #fff;
+}
+
+/* Edit footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.social{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.social img{
+    width: 40px;
+}
+
+.social a{
+    cursor: pointer;
+}
